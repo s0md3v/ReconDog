@@ -42,6 +42,7 @@ if choice == 2:
     else:
         print "\033[1;33mNot Protected By cloudflare\033[1;m"
 if choice == 3:
+        domain = raw_input('\033[1;91mEnter Domain: \033[1;m')
         zone = "http://api.hackertarget.com/zonetransfer/?q=" + domain
         try:
             domain = raw_input('\033[1;91mEnter Domain: \033[1;m')
