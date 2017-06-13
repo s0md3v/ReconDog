@@ -1,13 +1,5 @@
 #!/usr/bin/env python
 from urllib2 import *
-import socket
-import json
-
-data = json.loads(urlopen("http://ip.jsontest.com/").read())
-def get_ip_address():
-    s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    s.connect(("8.8.8.8", 80))
-    return s.getsockname()[0]
 print "\033[93m                               ___       ___\033[1;m"
 print "\033[93m                              |   \_____/   |\033[1;m"
 print "\033[93m                             /  |\/     \/|  \\    \033[1;m"
