@@ -4,7 +4,7 @@ Recon Dog is an all in one tool for all your basic information gathering needs. 
 
 ## Downloading and running Recon Dog
 
-If you are a Linux user enter the following command in the terminal
+Enter the following command in the terminal to download it
 ```
 git clone https://github.com/UltimateHackers/ReconDog
 ```
