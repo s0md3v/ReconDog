@@ -1,5 +1,9 @@
 #!/usr/bin/env python
+import os
 from urllib2 import *
+from colorama import init, Fore, Back, Style
+init(convert=True)
+
 def banner():
     print "\033[93m                               ___       ___\033[1;m"
     print "\033[93m                              |   \_____/   |\033[1;m"
@@ -20,6 +24,7 @@ def menu():
     print "\033[97m8. Link Grabber\033[1;m"
     print "\033[97m9. IP Location Finder\033[1;m"
     print "\033[97m10. Traceroute\033[1;m"
+    print "\033[97m11. Exit\033[1;m"
 def dog():
     try:
         choice = input('\033[1;91mEnter your choice:\033[1;m ')
@@ -130,6 +135,9 @@ def dog():
             print (ptrace)
             menu()
             dog()
+        if choice == 11:
+            print "\033[97m11. Exiting\033[1;m"
+            os._exit(1)
         else:
             print "\033[1;31m[-] Invalid option!\033[1;m"
             menu()
