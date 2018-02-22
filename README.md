@@ -12,7 +12,9 @@ After downloading the program, enter the following command to navigate to the Re
 ```
 cd ReconDog && ls
 ```
-Now run the script with following command.
+The directory contains two files: `dog.py` in python 2 and `dog3.py` in python 3. 
+ 
+Now run the script for your python version with the following command. 
 ```
 python dog.py
 ```
