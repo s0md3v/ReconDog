@@ -1,0 +1,4 @@
+# Adding common files to gitignore
+.vscode
+.pyc
+.idea
