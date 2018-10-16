@@ -65,6 +65,7 @@ There's more to it! Do you have a program that can enumerate subdomains and you 
 
 `subdomainfinder -t example.com | python dog --domains -c 3`
 
+If you just want to print the targets, don't use the **-c** option.\
 Also, it doesn't matter what kind of output the other program generates, Recon Dog uses regular expressions to find targets which makes it easy to integrate will literally every tool.
 There are two switchs available:
 ```
