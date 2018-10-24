@@ -40,7 +40,7 @@
 - [All](https://github.com/s0md3v/ReconDog): Runs all utilities against the target
 
 ### Demo
-<img alt="demo" href="https://youtu.be/CHkIMcSzzCY" src="https://image.ibb.co/i11A69/Screenshot-2018-10-13-15-41-11.png">
+<a href="https://youtu.be/CHkIMcSzzCY"><img alt="demo" src="https://image.ibb.co/i11A69/Screenshot-2018-10-13-15-41-11.png"></a>
 
 ### Compatibility
 Recon Dog will run on anything that has a python interpreter installed. However, it has been tested on the following configurations:
