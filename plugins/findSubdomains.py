@@ -1,6 +1,6 @@
 import sys
 from re import findall
-from tld import get_fld
+from tld import get_tld
 from requests import get
 
 results = {}
