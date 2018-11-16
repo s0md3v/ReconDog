@@ -1,6 +1,6 @@
 import sys
 from re import findall
-from tld import get_fld
+from tld import get_tld
 from requests import get
 
 results = {}
@@ -8,7 +8,7 @@ results = {}
 
 def findSubdomains(host):
     response = get('https://findsubdomains.com/subdomains-of/' +
-                   get_fld(host, fix_protocol=True)).text
+                   get_tld(host, fix_protocol=True)).text
     parts = response.split('data-row')
     for part in parts:
         matches = findall(
